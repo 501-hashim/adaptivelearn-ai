@@ -1,3 +1,4 @@
+import logging
 from typing import List
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
@@ -9,6 +10,8 @@ from app.schemas.schemas import SubjectOut, ChapterOut, ConceptOut
 from app.routers.deps import get_current_student
 from app.services.adaptive_engine import AdaptiveEngine
 
+logger = logging.getLogger(__name__)
+
 router = APIRouter(tags=["Curriculum"])
 
 
@@ -17,6 +20,16 @@ def get_subjects(
     db: Session = Depends(get_db),
     current_student: Student = Depends(get_current_student)
 ):
+    # Auto-seed check on-demand: if database has 0 subjects, seed it immediately!
+    if db.query(Subject).count() == 0:
+        try:
+            logger.info("No subjects found in database. Performing on-demand seeding...")
+            from app.db.seed import seed_data
+            seed_data()
+            logger.info("On-demand seeding completed.")
+        except Exception as e:
+            logger.error(f"On-demand seeding failed: {e}")
+
     # Only return subjects matching the student's enrolled grade
     subjects = db.query(Subject).filter(
         Subject.grade == current_student.grade,

@@ -29,6 +29,27 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("seed")
 
 
+def find_data_file(filename: str) -> str:
+    """Finds curriculum seed or verified question files across possible deployment locations."""
+    candidates = [
+        # Inside backend/data
+        os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", filename),
+        # In repository root /data
+        os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "data", filename),
+        # Relative to working directories
+        os.path.join(os.getcwd(), "data", filename),
+        os.path.join(os.getcwd(), "backend", "data", filename),
+        os.path.join(os.getcwd(), "..", "data", filename),
+        # Common cloud container paths (e.g. Render, Azure)
+        os.path.join("/opt/render/project/src/data", filename),
+        os.path.join("/opt/render/project/src/backend/data", filename),
+    ]
+    for path in candidates:
+        if os.path.exists(path):
+            return path
+    raise FileNotFoundError(f"Could not locate {filename} in any of: {candidates}")
+
+
 def seed_data(reset: bool = False):
     db = SessionLocal()
     try:
@@ -55,9 +76,8 @@ def seed_data(reset: bool = False):
             logger.info(f"Created demo student: {demo_email} (Password: Password123!)")
 
         # 2. Load curriculum outline
-        # __file__ is backend/app/db/seed.py -> dirname is backend/app/db -> 4 dirnames gives adaptivelearn-ai
-        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-        curriculum_file = os.path.join(base_dir, "data", "curriculum_seed.json")
+        curriculum_file = find_data_file("curriculum_seed.json")
+        logger.info(f"Loading curriculum from: {curriculum_file}")
         with open(curriculum_file, "r") as f:
             curriculum_data = json.load(f)
 
@@ -121,7 +141,8 @@ def seed_data(reset: bool = False):
         db.commit()
 
         # 4. Seed verified questions
-        questions_file = os.path.join(base_dir, "data", "verified_questions.json")
+        questions_file = find_data_file("verified_questions.json")
+        logger.info(f"Loading questions from: {questions_file}")
         with open(questions_file, "r") as f:
             questions_data = json.load(f)
 
