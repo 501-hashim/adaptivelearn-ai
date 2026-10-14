@@ -1,0 +1,45 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: adaptivelearn_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: adaptivelearn
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: adaptivelearn_backend
+    restart: always
+    environment:
+      APP_ENV: development
+      DEBUG: "true"
+      SECRET_KEY: adaptivelearn-super-secret-development-key-change-me
+      DATABASE_URL: postgresql://postgres:password@db:5432/adaptivelearn
+      FRONTEND_ORIGIN: http://localhost:5173
+      AI_PROVIDER: none
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: adaptivelearn_frontend
+    restart: always
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

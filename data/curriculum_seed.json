@@ -1,0 +1,168 @@
+{
+  "subjects": [
+    {
+      "id": "sub-math-8",
+      "name": "Mathematics",
+      "grade": 8,
+      "syllabus_version": "CBSE / NCERT 2026",
+      "description": "Grade 8 foundational mathematics covering rational numbers, linear equations, geometry, and algebraic expressions.",
+      "chapters": [
+        {
+          "id": "ch-math-rat",
+          "title": "Rational Numbers",
+          "description": "Properties of rational numbers, closure, commutativity, and number line representation.",
+          "sequence_no": 1,
+          "concepts": [
+            {
+              "id": "c-rat-prop",
+              "name": "Properties of Rational Numbers",
+              "description": "Closure, commutativity, and associativity under basic arithmetic operations.",
+              "learning_objective": "Understand and apply closure, commutative, and associative properties.",
+              "prerequisites": []
+            },
+            {
+              "id": "c-rat-numline",
+              "name": "Representation on the Number Line",
+              "description": "Locating and spacing positive and negative rational numbers on a continuous line.",
+              "learning_objective": "Accurately plot and find intermediate fractions on a coordinate line.",
+              "prerequisites": [
+                "c-rat-prop"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch-math-linear",
+          "title": "Linear Equations in One Variable",
+          "description": "Solving algebraic equations with one variable on one or both sides.",
+          "sequence_no": 2,
+          "concepts": [
+            {
+              "id": "c-lin-solve",
+              "name": "Solving Linear Equations",
+              "description": "Transposition and balance methods for solving single-variable linear equations.",
+              "learning_objective": "Solve single variable equations with variables on one or both sides.",
+              "prerequisites": [
+                "c-rat-prop"
+              ]
+            },
+            {
+              "id": "c-lin-word",
+              "name": "Word Problems & Real-World Modeling",
+              "description": "Translating word problems into mathematical linear equations.",
+              "learning_objective": "Formulate and solve equations representing age, geometry, and rate problems.",
+              "prerequisites": [
+                "c-lin-solve"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch-math-quad",
+          "title": "Understanding Quadrilaterals",
+          "description": "Polygons, angle sum property, and classification of quadrilaterals.",
+          "sequence_no": 3,
+          "concepts": [
+            {
+              "id": "c-quad-angle",
+              "name": "Angle Sum Property & Polygons",
+              "description": "Interior and exterior angle sum formulas for convex polygons.",
+              "learning_objective": "Calculate interior and exterior angle sums for any n-sided polygon.",
+              "prerequisites": []
+            },
+            {
+              "id": "c-quad-types",
+              "name": "Special Quadrilaterals & Properties",
+              "description": "Properties of parallelograms, rhombuses, rectangles, and squares.",
+              "learning_objective": "Distinguish diagonals, angles, and sides of special quadrilaterals.",
+              "prerequisites": [
+                "c-quad-angle"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-sci-8",
+      "name": "Science",
+      "grade": 8,
+      "syllabus_version": "CBSE / NCERT 2026",
+      "description": "Grade 8 foundational science covering physics, chemistry, and biology concepts.",
+      "chapters": [
+        {
+          "id": "ch-sci-cell",
+          "title": "Cell \u2014 Structure and Functions",
+          "description": "Fundamental unit of life, cell organelles, and difference between plant and animal cells.",
+          "sequence_no": 1,
+          "concepts": [
+            {
+              "id": "c-cell-organ",
+              "name": "Cell Structure and Organelles",
+              "description": "Nucleus, cytoplasm, cell membrane, mitochondria, and plastids.",
+              "learning_objective": "Identify key cell organelles and their metabolic roles.",
+              "prerequisites": []
+            },
+            {
+              "id": "c-cell-compare",
+              "name": "Plant vs Animal Cells",
+              "description": "Cell wall, chloroplasts, large vacuoles, and comparative physiology.",
+              "learning_objective": "Compare and contrast structural distinctions between plant and animal cells.",
+              "prerequisites": [
+                "c-cell-organ"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch-sci-force",
+          "title": "Force and Pressure",
+          "description": "Contact and non-contact forces, pressure, and fluid pressure principles.",
+          "sequence_no": 2,
+          "concepts": [
+            {
+              "id": "c-force-types",
+              "name": "Types of Forces",
+              "description": "Muscular, friction, magnetic, electrostatic, and gravitational forces.",
+              "learning_objective": "Differentiate between contact and non-contact forces in nature.",
+              "prerequisites": []
+            },
+            {
+              "id": "c-force-press",
+              "name": "Pressure and Fluid Pressure",
+              "description": "Force per unit area, atmospheric pressure, and pressure in liquids.",
+              "learning_objective": "Explain the inverse relation of area to pressure and liquid depth variation.",
+              "prerequisites": [
+                "c-force-types"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch-sci-light",
+          "title": "Light and Reflection",
+          "description": "Laws of reflection, regular vs diffused reflection, and human eye structure.",
+          "sequence_no": 3,
+          "concepts": [
+            {
+              "id": "c-light-refl",
+              "name": "Laws of Reflection",
+              "description": "Angle of incidence equals angle of reflection; normal, incident, and reflected ray.",
+              "learning_objective": "Apply the laws of specular reflection to plane and spherical surfaces.",
+              "prerequisites": []
+            },
+            {
+              "id": "c-light-eye",
+              "name": "Human Eye & Vision Care",
+              "description": "Cornea, iris, pupil, lens, retina, rods, and cones.",
+              "learning_objective": "Describe how the eye focuses images on the retina and vision defects.",
+              "prerequisites": [
+                "c-light-refl"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

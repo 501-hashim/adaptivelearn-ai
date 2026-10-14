@@ -1,0 +1,2628 @@
+[
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "Which of the following operations is NOT closed for rational numbers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Addition"
+      },
+      {
+        "id": "B",
+        "text": "Subtraction"
+      },
+      {
+        "id": "C",
+        "text": "Multiplication"
+      },
+      {
+        "id": "D",
+        "text": "Division"
+      }
+    ],
+    "correct_option": "D",
+    "explanation": "Division is not closed because division by zero is undefined.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "What is the additive identity for rational numbers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "-1"
+      },
+      {
+        "id": "D",
+        "text": "Any integer"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Adding 0 to any rational number leaves the number unchanged (a + 0 = a).",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "What is the multiplicative inverse of -7/11?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7/11"
+      },
+      {
+        "id": "B",
+        "text": "-11/7"
+      },
+      {
+        "id": "C",
+        "text": "11/7"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The multiplicative inverse (reciprocal) is obtained by flipping numerator and denominator with the sign preserved: (-7/11) * (-11/7) = 1.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "The equation a * (b + c) = a * b + a * c demonstrates which mathematical property?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Commutative property"
+      },
+      {
+        "id": "B",
+        "text": "Associative property"
+      },
+      {
+        "id": "C",
+        "text": "Distributive property of multiplication over addition"
+      },
+      {
+        "id": "D",
+        "text": "Closure property"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "This is the distributive property of multiplication over addition.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "If a and b are two rational numbers, then (a - b) is always equal to (b - a). Is this true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes, subtraction is commutative"
+      },
+      {
+        "id": "B",
+        "text": "No, subtraction is not commutative"
+      },
+      {
+        "id": "C",
+        "text": "Only if both numbers are positive"
+      },
+      {
+        "id": "D",
+        "text": "Only if a = 1"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Subtraction is not commutative for rational numbers; for example 3 - 2 != 2 - 3.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "Find the value of (2/5 * -3/7) - (1/14) - (3/7 * 3/5) using distributive property.",
+    "options": [
+      {
+        "id": "A",
+        "text": "-1/2"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "-1"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Rearranging terms: -3/7 * (2/5 + 3/5) - 1/14 = -3/7 * 1 - 1/14 = -6/14 - 1/14 = -7/14 = -1/2.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "Which of the following numbers does NOT have a multiplicative inverse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "-1"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Zero has no reciprocal because 1/0 is undefined in mathematics.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "If x is a non-zero rational number, then x + (-x) equals:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "-1"
+      },
+      {
+        "id": "D",
+        "text": "2x"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The sum of a number and its additive inverse is always 0.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-prop",
+    "question_text": "Evaluate: (-4/5) * (3/7) * (15/16) * (-14/9).",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "-1/2"
+      },
+      {
+        "id": "C",
+        "text": "2/3"
+      },
+      {
+        "id": "D",
+        "text": "-2/3"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Multiplying: (-4/5 * 15/16) * (3/7 * -14/9) = (-3/4) * (-2/3) = 6/12 = 1/2.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "On a standard horizontal number line, negative rational numbers lie:",
+    "options": [
+      {
+        "id": "A",
+        "text": "To the right of 0"
+      },
+      {
+        "id": "B",
+        "text": "To the left of 0"
+      },
+      {
+        "id": "C",
+        "text": "At 0"
+      },
+      {
+        "id": "D",
+        "text": "Above 0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Negative numbers are always situated to the left of zero.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "How many rational numbers exist between any two distinct rational numbers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only 1"
+      },
+      {
+        "id": "B",
+        "text": "Exactly 10"
+      },
+      {
+        "id": "C",
+        "text": "Infinitely many"
+      },
+      {
+        "id": "D",
+        "text": "Zero"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Between any two distinct rational numbers, there are infinitely many rational numbers.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "Which rational number lies exactly midway between 1/4 and 1/2?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3/8"
+      },
+      {
+        "id": "B",
+        "text": "2/6"
+      },
+      {
+        "id": "C",
+        "text": "5/8"
+      },
+      {
+        "id": "D",
+        "text": "3/4"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "The midpoint is (1/4 + 1/2) / 2 = (1/4 + 2/4) / 2 = (3/4) / 2 = 3/8.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "Where does the rational number -7/4 lie on the number line?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between 0 and -1"
+      },
+      {
+        "id": "B",
+        "text": "Between -1 and -2"
+      },
+      {
+        "id": "C",
+        "text": "Between -2 and -3"
+      },
+      {
+        "id": "D",
+        "text": "To the right of 0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "-7/4 is -1.75, which lies between -1 and -2.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "Find a rational number strictly between -1/3 and 1/2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "-1"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "-2/3"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "0 lies between any negative rational number and any positive rational number.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "If the distance between 0 and 1 is divided into 5 equal parts, the third marking represents:",
+    "options": [
+      {
+        "id": "A",
+        "text": "5/3"
+      },
+      {
+        "id": "B",
+        "text": "3/5"
+      },
+      {
+        "id": "C",
+        "text": "2/5"
+      },
+      {
+        "id": "D",
+        "text": "1/5"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Each part is 1/5, so the third tick mark represents 3 * 1/5 = 3/5.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "Which of the following is smaller than -5/6?",
+    "options": [
+      {
+        "id": "A",
+        "text": "-1/6"
+      },
+      {
+        "id": "B",
+        "text": "-2/3"
+      },
+      {
+        "id": "C",
+        "text": "-7/6"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "-7/6 = -1.167 which is further to the left on the number line than -5/6 = -0.833.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "Find the average of -2/5 and 4/5 on the number line.",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/5"
+      },
+      {
+        "id": "B",
+        "text": "2/5"
+      },
+      {
+        "id": "C",
+        "text": "3/5"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "(-2/5 + 4/5) / 2 = (2/5) / 2 = 1/5.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-rat-numline",
+    "question_text": "Find three rational numbers between 2/3 and 3/4. Which of these is valid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "17/24"
+      },
+      {
+        "id": "B",
+        "text": "1/2"
+      },
+      {
+        "id": "C",
+        "text": "4/5"
+      },
+      {
+        "id": "D",
+        "text": "7/8"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "2/3 = 16/24 and 3/4 = 18/24. Thus 17/24 lies directly between them.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "Solve for x: 3x - 5 = 7.",
+    "options": [
+      {
+        "id": "A",
+        "text": "x = 2"
+      },
+      {
+        "id": "B",
+        "text": "x = 4"
+      },
+      {
+        "id": "C",
+        "text": "x = 6"
+      },
+      {
+        "id": "D",
+        "text": "x = 12"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "3x = 7 + 5 => 3x = 12 => x = 4.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "Solve for y: 2y + 9 = 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "y = -5/2"
+      },
+      {
+        "id": "B",
+        "text": "y = 5/2"
+      },
+      {
+        "id": "C",
+        "text": "y = -13/2"
+      },
+      {
+        "id": "D",
+        "text": "y = -2"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "2y = 4 - 9 = -5 => y = -5/2.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "Solve for x: 5x + 7/2 = 3/2 * x - 14.",
+    "options": [
+      {
+        "id": "A",
+        "text": "x = -5"
+      },
+      {
+        "id": "B",
+        "text": "x = 5"
+      },
+      {
+        "id": "C",
+        "text": "x = -4"
+      },
+      {
+        "id": "D",
+        "text": "x = 2"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Multiply entire equation by 2: 10x + 7 = 3x - 28 => 7x = -35 => x = -5.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "Solve for t: (t - 3) / 5 = (t - 5) / 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "t = 6"
+      },
+      {
+        "id": "B",
+        "text": "t = 8"
+      },
+      {
+        "id": "C",
+        "text": "t = -8"
+      },
+      {
+        "id": "D",
+        "text": "t = 4"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Cross-multiplying: 3(t - 3) = 5(t - 5) => 3t - 9 = 5t - 25 => 16 = 2t => t = 8.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "Solve for x: 8x + 4 = 3(x - 1) + 7.",
+    "options": [
+      {
+        "id": "A",
+        "text": "x = 1"
+      },
+      {
+        "id": "B",
+        "text": "x = 0"
+      },
+      {
+        "id": "C",
+        "text": "x = -1"
+      },
+      {
+        "id": "D",
+        "text": "x = 2"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "8x + 4 = 3x - 3 + 7 => 8x + 4 = 3x + 4 => 5x = 0 => x = 0.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "What is the root of the equation z / (z + 15) = 4/9?",
+    "options": [
+      {
+        "id": "A",
+        "text": "z = 10"
+      },
+      {
+        "id": "B",
+        "text": "z = 12"
+      },
+      {
+        "id": "C",
+        "text": "z = 15"
+      },
+      {
+        "id": "D",
+        "text": "z = 9"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "9z = 4(z + 15) => 9z = 4z + 60 => 5z = 60 => z = 12.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "If 0.25(4f - 3) = 0.05(10f - 9), find f.",
+    "options": [
+      {
+        "id": "A",
+        "text": "f = 0.4"
+      },
+      {
+        "id": "B",
+        "text": "f = 0.5"
+      },
+      {
+        "id": "C",
+        "text": "f = 0.6"
+      },
+      {
+        "id": "D",
+        "text": "f = 0.8"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "f - 0.75 = 0.5f - 0.45 => 0.5f = 0.30 => f = 0.6.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "What is the highest power of the variable in a linear equation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "In a linear equation, the maximum degree/power of the variable is strictly 1.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-solve",
+    "question_text": "Solve for m: 3m = 5m - 8/5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "m = 4/5"
+      },
+      {
+        "id": "B",
+        "text": "m = -4/5"
+      },
+      {
+        "id": "C",
+        "text": "m = 2/5"
+      },
+      {
+        "id": "D",
+        "text": "m = 8/5"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "8/5 = 5m - 3m => 2m = 8/5 => m = 4/5.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "The sum of three consecutive integers is 51. What is the middle integer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "17"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Let the integers be n-1, n, n+1. Sum = 3n = 51 => n = 17.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "The perimeter of a rectangle is 26 cm. If its length is 8 cm, find its breadth.",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 cm"
+      },
+      {
+        "id": "B",
+        "text": "5 cm"
+      },
+      {
+        "id": "C",
+        "text": "6 cm"
+      },
+      {
+        "id": "D",
+        "text": "9 cm"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "2 * (length + breadth) = 26 => 8 + breadth = 13 => breadth = 5 cm.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "A father is 3 times as old as his son. In 12 years, he will be twice as old. How old is the son now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 years"
+      },
+      {
+        "id": "B",
+        "text": "12 years"
+      },
+      {
+        "id": "C",
+        "text": "14 years"
+      },
+      {
+        "id": "D",
+        "text": "15 years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Father = 3s. In 12 yrs: 3s + 12 = 2(s + 12) => 3s + 12 = 2s + 24 => s = 12 years.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "Two numbers are in the ratio 5:3. If they differ by 18, what is the larger number?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "55"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "5x - 3x = 18 => 2x = 18 => x = 9. Larger number = 5 * 9 = 45.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "The digits of a two-digit number differ by 3. If the digits are interchanged and added to the original, the sum is 143. Find the original number (greater than 50).",
+    "options": [
+      {
+        "id": "A",
+        "text": "85"
+      },
+      {
+        "id": "B",
+        "text": "74"
+      },
+      {
+        "id": "C",
+        "text": "96"
+      },
+      {
+        "id": "D",
+        "text": "63"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "11(x + y) = 143 => x + y = 13. Given x - y = 3 => 2x = 16 => x = 8, y = 5. Number is 85.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "A streamer goes downstream and covers the distance between two ports in 4 hours, and returns upstream in 5 hours. If the stream speed is 2 km/h, find the speed of the streamer in still water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 km/h"
+      },
+      {
+        "id": "B",
+        "text": "18 km/h"
+      },
+      {
+        "id": "C",
+        "text": "20 km/h"
+      },
+      {
+        "id": "D",
+        "text": "22 km/h"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Distance = 4(v + 2) = 5(v - 2) => 4v + 8 = 5v - 10 => v = 18 km/h.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "A number consists of two digits whose sum is 9. If 27 is subtracted from the number, its digits reverse. Find the number.",
+    "options": [
+      {
+        "id": "A",
+        "text": "54"
+      },
+      {
+        "id": "B",
+        "text": "63"
+      },
+      {
+        "id": "C",
+        "text": "72"
+      },
+      {
+        "id": "D",
+        "text": "81"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "(10x + y) - 27 = 10y + x => 9x - 9y = 27 => x - y = 3. Since x + y = 9, x = 6, y = 3. The number is 63.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-lin-word",
+    "question_text": "Fifteen years from now, Ravi will be four times his present age. What is Ravi\u2019s present age?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 years"
+      },
+      {
+        "id": "B",
+        "text": "5 years"
+      },
+      {
+        "id": "C",
+        "text": "6 years"
+      },
+      {
+        "id": "D",
+        "text": "7 years"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "r + 15 = 4r => 3r = 15 => r = 5 years.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "What is the sum of the interior angles of a quadrilateral?",
+    "options": [
+      {
+        "id": "A",
+        "text": "180\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "270\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "360\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "540\u00b0"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "By the angle sum formula (n - 2) * 180\u00b0, for n = 4, (4 - 2) * 180\u00b0 = 360\u00b0.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "What is the sum of the exterior angles of any convex polygon?",
+    "options": [
+      {
+        "id": "A",
+        "text": "180\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "360\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "540\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "Depends on number of sides"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The sum of the exterior angles of any convex polygon is always constant at 360\u00b0.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "Find the measure of each exterior angle of a regular octagon (8-sided polygon).",
+    "options": [
+      {
+        "id": "A",
+        "text": "40\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "45\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "50\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "60\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Exterior angle = 360\u00b0 / n = 360\u00b0 / 8 = 45\u00b0.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "How many sides does a regular polygon have if the measure of an exterior angle is 24\u00b0?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Number of sides n = 360\u00b0 / 24\u00b0 = 15 sides.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "What is the measure of each interior angle of a regular hexagon?",
+    "options": [
+      {
+        "id": "A",
+        "text": "108\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "120\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "135\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "144\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Interior angle = ((n - 2) * 180\u00b0) / n = (4 * 180\u00b0) / 6 = 720\u00b0 / 6 = 120\u00b0.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "Three angles of a quadrilateral are 50\u00b0, 80\u00b0, and 120\u00b0. What is the measure of the fourth angle?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "110\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "120\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "90\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Fourth angle = 360\u00b0 - (50\u00b0 + 80\u00b0 + 120\u00b0) = 360\u00b0 - 250\u00b0 = 110\u00b0.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "Can a regular polygon have an exterior angle of 22\u00b0?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes"
+      },
+      {
+        "id": "B",
+        "text": "No, because 360 is not divisible by 22"
+      },
+      {
+        "id": "C",
+        "text": "Only if it has 18 sides"
+      },
+      {
+        "id": "D",
+        "text": "Yes, if concave"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "360\u00b0 / 22\u00b0 = 16.36, which is not an integer. Hence no such regular polygon exists.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-angle",
+    "question_text": "A polygon has 9 sides. What is the total sum of all its interior angles?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1080\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "1260\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "1440\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "1620\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Sum = (9 - 2) * 180\u00b0 = 7 * 180\u00b0 = 1260\u00b0.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "Which property is TRUE for a parallelogram?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All angles are 90\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "Opposite sides and angles are equal"
+      },
+      {
+        "id": "C",
+        "text": "Diagonals are perpendicular"
+      },
+      {
+        "id": "D",
+        "text": "All sides are equal"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "In a parallelogram, opposite sides are equal and opposite angles are equal.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "In which quadrilateral are the diagonals perpendicular bisectors of each other, but the sides are not necessarily perpendicular?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rectangle"
+      },
+      {
+        "id": "B",
+        "text": "Rhombus"
+      },
+      {
+        "id": "C",
+        "text": "Trapezium"
+      },
+      {
+        "id": "D",
+        "text": "Kite"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "In a rhombus, all four sides are equal and diagonals bisect each other at 90\u00b0.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "A quadrilateral with exactly one pair of parallel opposite sides is called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parallelogram"
+      },
+      {
+        "id": "B",
+        "text": "Rhombus"
+      },
+      {
+        "id": "C",
+        "text": "Trapezium"
+      },
+      {
+        "id": "D",
+        "text": "Rectangle"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "A trapezium is defined as a quadrilateral having one pair of parallel sides.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "In a parallelogram ABCD, angle A = 70\u00b0. Find the measure of adjacent angle B.",
+    "options": [
+      {
+        "id": "A",
+        "text": "70\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "110\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "120\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "90\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Adjacent angles of a parallelogram are supplementary: 180\u00b0 - 70\u00b0 = 110\u00b0.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "Which of the following has perpendicular diagonals of EQUAL length?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Square"
+      },
+      {
+        "id": "B",
+        "text": "Rectangle"
+      },
+      {
+        "id": "C",
+        "text": "Rhombus"
+      },
+      {
+        "id": "D",
+        "text": "Parallelogram"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "A square has both equal diagonals and perpendicular diagonals.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "The diagonals of a rectangle RENT intersect at O. If OR = 2x + 4 and OT = 3x + 1, find x.",
+    "options": [
+      {
+        "id": "A",
+        "text": "x = 2"
+      },
+      {
+        "id": "B",
+        "text": "x = 3"
+      },
+      {
+        "id": "C",
+        "text": "x = 4"
+      },
+      {
+        "id": "D",
+        "text": "x = 5"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The diagonals of a rectangle are equal and bisect each other, so OR = OT: 2x + 4 = 3x + 1 => x = 3.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "A kite has:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two pairs of equal consecutive sides"
+      },
+      {
+        "id": "B",
+        "text": "All sides equal"
+      },
+      {
+        "id": "C",
+        "text": "Opposite sides parallel"
+      },
+      {
+        "id": "D",
+        "text": "Equal diagonals"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "A kite is a quadrilateral with two distinct pairs of equal-length adjacent (consecutive) sides.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-quad-types",
+    "question_text": "If two adjacent angles of a parallelogram are in the ratio 3:2, find the smaller angle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "36\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "72\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "108\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "54\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "3x + 2x = 180\u00b0 => 5x = 180\u00b0 => x = 36\u00b0. Smaller angle = 2 * 36\u00b0 = 72\u00b0.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "Which organelle is universally known as the powerhouse of the cell?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ribosome"
+      },
+      {
+        "id": "B",
+        "text": "Mitochondrion"
+      },
+      {
+        "id": "C",
+        "text": "Golgi apparatus"
+      },
+      {
+        "id": "D",
+        "text": "Endoplasmic reticulum"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Mitochondria produce cellular energy in the form of ATP via cellular respiration.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "The control center of the cell that contains genetic material is the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nucleus"
+      },
+      {
+        "id": "B",
+        "text": "Cytoplasm"
+      },
+      {
+        "id": "C",
+        "text": "Lysosome"
+      },
+      {
+        "id": "D",
+        "text": "Vacuole"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "The nucleus houses DNA/chromosomes and coordinates cell growth and metabolism.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "The jelly-like fluid that fills the interior of the cell is known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Protoplasm"
+      },
+      {
+        "id": "B",
+        "text": "Cytoplasm"
+      },
+      {
+        "id": "C",
+        "text": "Plasma membrane"
+      },
+      {
+        "id": "D",
+        "text": "Nucleoplasm"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Cytoplasm is the gelatinous liquid medium filling inside the cell membrane.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "Genes, the units of inheritance in living organisms, are carried on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plastids"
+      },
+      {
+        "id": "B",
+        "text": "Chromosomes"
+      },
+      {
+        "id": "C",
+        "text": "Centrosomes"
+      },
+      {
+        "id": "D",
+        "text": "Ribosomes"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Chromosomes inside the cell nucleus carry genes composed of DNA.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "Which part of the cell regulates the entry and exit of substances?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cell wall"
+      },
+      {
+        "id": "B",
+        "text": "Nuclear membrane"
+      },
+      {
+        "id": "C",
+        "text": "Plasma (cell) membrane"
+      },
+      {
+        "id": "D",
+        "text": "Endoplasm"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "The plasma membrane is selectively permeable, regulating transport in and out of the cell.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "Organisms made of a single cell like Amoeba and Paramecium are called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Multicellular"
+      },
+      {
+        "id": "B",
+        "text": "Unicellular"
+      },
+      {
+        "id": "C",
+        "text": "Prokaryotes only"
+      },
+      {
+        "id": "D",
+        "text": "Acellular"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Unicellular organisms consist of a single autonomous cell.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "Which cell organelle is responsible for synthesizing proteins?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mitochondria"
+      },
+      {
+        "id": "B",
+        "text": "Ribosomes"
+      },
+      {
+        "id": "C",
+        "text": "Vacuoles"
+      },
+      {
+        "id": "D",
+        "text": "Chloroplasts"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Ribosomes are the molecular machines that assemble amino acids into protein chains.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "What term describes cells lacking a well-defined nuclear membrane around genetic material?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eukaryotic cells"
+      },
+      {
+        "id": "B",
+        "text": "Prokaryotic cells"
+      },
+      {
+        "id": "C",
+        "text": "Somatic cells"
+      },
+      {
+        "id": "D",
+        "text": "Gametes"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Prokaryotic cells (e.g., bacteria, blue-green algae) lack a membrane-bound nucleus.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-organ",
+    "question_text": "Who was the first scientist to observe cells under a rudimentary microscope in 1665?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Robert Brown"
+      },
+      {
+        "id": "B",
+        "text": "Robert Hooke"
+      },
+      {
+        "id": "C",
+        "text": "Louis Pasteur"
+      },
+      {
+        "id": "D",
+        "text": "Antonie van Leeuwenhoek"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Robert Hooke observed honeycomb-like dead cork cells in 1665.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "Which structure provides rigidity and protection to plant cells but is absent in animal cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cell membrane"
+      },
+      {
+        "id": "B",
+        "text": "Cell wall"
+      },
+      {
+        "id": "C",
+        "text": "Mitochondria"
+      },
+      {
+        "id": "D",
+        "text": "Nucleus"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The rigid cellulose cell wall surrounds plant cells but is absent in animal cells.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "Green plastids responsible for photosynthesis in plants are called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Leucoplasts"
+      },
+      {
+        "id": "B",
+        "text": "Chromoplasts"
+      },
+      {
+        "id": "C",
+        "text": "Chloroplasts"
+      },
+      {
+        "id": "D",
+        "text": "Ribosomes"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Chloroplasts contain chlorophyll pigment to trap sunlight for photosynthesis.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "How do vacuoles generally differ between plant and animal cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plant cells have one large central vacuole; animal cells have small vacuoles"
+      },
+      {
+        "id": "B",
+        "text": "Animal cells have one large vacuole"
+      },
+      {
+        "id": "C",
+        "text": "Plant cells have no vacuoles"
+      },
+      {
+        "id": "D",
+        "text": "Vacuoles are identical in both"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Mature plant cells feature a large central vacuole that maintains turgidity.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "Why do plant cells require a cell wall in addition to a cell membrane?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To move freely"
+      },
+      {
+        "id": "B",
+        "text": "To withstand temperature fluctuations, wind, and osmotic pressure without bursting"
+      },
+      {
+        "id": "C",
+        "text": "To absorb sunlight"
+      },
+      {
+        "id": "D",
+        "text": "To store carbohydrates"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Plants cannot move to shelter; the cell wall provides mechanical strength against environmental stresses.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "Which of the following is present in animal cells but typically absent in higher plant cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Centrioles / Centrosomes"
+      },
+      {
+        "id": "B",
+        "text": "Cell wall"
+      },
+      {
+        "id": "C",
+        "text": "Plastids"
+      },
+      {
+        "id": "D",
+        "text": "Mitochondria"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Centrosomes/centrioles are present in animal cells to organize spindle fibers during mitosis.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "A student observes an onion peel cell and a human cheek cell. What structure will be present ONLY in the onion peel cell?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cytoplasm"
+      },
+      {
+        "id": "B",
+        "text": "Cell wall"
+      },
+      {
+        "id": "C",
+        "text": "Nucleus"
+      },
+      {
+        "id": "D",
+        "text": "Cell membrane"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Onion peel is plant tissue and possesses cell walls; cheek cells are animal cells with only a cell membrane.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "Which pigment gives yellow, orange, and red colors to fruits and flowers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chlorophyll"
+      },
+      {
+        "id": "B",
+        "text": "Chromoplasts"
+      },
+      {
+        "id": "C",
+        "text": "Leucoplasts"
+      },
+      {
+        "id": "D",
+        "text": "Hemoglobin"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Chromoplasts contain carotenoid pigments that impart red, orange, and yellow hues.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-cell-compare",
+    "question_text": "What is the primary function of colorless leucoplasts in plant cells?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Photosynthesis"
+      },
+      {
+        "id": "B",
+        "text": "Storage of starch, oils, and protein granules"
+      },
+      {
+        "id": "C",
+        "text": "Cellular respiration"
+      },
+      {
+        "id": "D",
+        "text": "Waste degradation"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Leucoplasts are non-pigmented organelles specialized for storing nutrients like starch and lipids.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "Which of the following is an example of a non-contact force?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Muscular force"
+      },
+      {
+        "id": "B",
+        "text": "Frictional force"
+      },
+      {
+        "id": "C",
+        "text": "Gravitational force"
+      },
+      {
+        "id": "D",
+        "text": "Tension force"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Gravity acts across space without physical contact between objects.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "The force exerted by the muscles of the body when lifting a bag is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mechanical force"
+      },
+      {
+        "id": "B",
+        "text": "Muscular force"
+      },
+      {
+        "id": "C",
+        "text": "Magnetic force"
+      },
+      {
+        "id": "D",
+        "text": "Electrostatic force"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Muscular force is exerted through the action of skeletal muscles.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "The force that opposes the relative motion between two surfaces in contact is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gravitational force"
+      },
+      {
+        "id": "B",
+        "text": "Friction"
+      },
+      {
+        "id": "C",
+        "text": "Magnetic force"
+      },
+      {
+        "id": "D",
+        "text": "Normal force"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Friction always acts tangential to surfaces in contact opposing motion.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "When a plastic comb rubbed on dry hair attracts tiny pieces of paper, which force is at work?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Magnetic force"
+      },
+      {
+        "id": "B",
+        "text": "Electrostatic force"
+      },
+      {
+        "id": "C",
+        "text": "Gravitational force"
+      },
+      {
+        "id": "D",
+        "text": "Frictional contact force"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Electrostatic force is exerted by an electrically charged body on an uncharged body.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "Two north poles of two bar magnets placed close to each other will:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attract each other"
+      },
+      {
+        "id": "B",
+        "text": "Repel each other"
+      },
+      {
+        "id": "C",
+        "text": "Produce gravitational pull"
+      },
+      {
+        "id": "D",
+        "text": "Have no effect"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Like magnetic poles repel each other, while unlike poles attract.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "What is the SI unit of force?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Joule"
+      },
+      {
+        "id": "B",
+        "text": "Pascal"
+      },
+      {
+        "id": "C",
+        "text": "Newton"
+      },
+      {
+        "id": "D",
+        "text": "Watt"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "The International System of Units (SI) unit of force is the Newton (N).",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "If two equal forces act on an object in opposite directions, the net resulting force is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Twice the force"
+      },
+      {
+        "id": "B",
+        "text": "Zero"
+      },
+      {
+        "id": "C",
+        "text": "Half the force"
+      },
+      {
+        "id": "D",
+        "text": "Indeterminate"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Forces are vector quantities; equal forces in opposite directions cancel each other out to zero.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-types",
+    "question_text": "Why do astronauts feel weightless in an orbiting spacecraft?",
+    "options": [
+      {
+        "id": "A",
+        "text": "There is zero gravity in space"
+      },
+      {
+        "id": "B",
+        "text": "They are in a continuous state of free fall alongside the spacecraft"
+      },
+      {
+        "id": "C",
+        "text": "Atmospheric air pushes them up"
+      },
+      {
+        "id": "D",
+        "text": "Magnetic field cancels gravity"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Orbiting astronauts are continuously falling around Earth together with their ship, experiencing apparent weightlessness.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "Pressure is mathematically defined as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Force * Area"
+      },
+      {
+        "id": "B",
+        "text": "Force / Area"
+      },
+      {
+        "id": "C",
+        "text": "Mass * Acceleration"
+      },
+      {
+        "id": "D",
+        "text": "Work / Time"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Pressure = Force applied perpendicular to surface per unit Area (P = F / A).",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "What is the SI unit of pressure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Newton"
+      },
+      {
+        "id": "B",
+        "text": "Pascal"
+      },
+      {
+        "id": "C",
+        "text": "Joule"
+      },
+      {
+        "id": "D",
+        "text": "Barometer"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "1 Pascal (Pa) = 1 Newton per square meter (N/m\u00b2).",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "Why do sharp knives cut fruits much more easily than blunt knives?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sharp knives exert less force"
+      },
+      {
+        "id": "B",
+        "text": "Smaller surface area creates much higher pressure for the same force"
+      },
+      {
+        "id": "C",
+        "text": "Sharp knives have greater mass"
+      },
+      {
+        "id": "D",
+        "text": "Friction is eliminated"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Decreasing contact area dramatically increases the resulting pressure (P = F/A).",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "At what depth does water in an open container exert the greatest pressure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the surface"
+      },
+      {
+        "id": "B",
+        "text": "Midway"
+      },
+      {
+        "id": "C",
+        "text": "At the bottom of the container"
+      },
+      {
+        "id": "D",
+        "text": "Pressure is identical everywhere"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Liquid pressure increases proportionally with depth (P = rho * g * h).",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "A force of 100 N is applied on an area of 2 m\u00b2. What is the generated pressure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "200 Pa"
+      },
+      {
+        "id": "B",
+        "text": "50 Pa"
+      },
+      {
+        "id": "C",
+        "text": "25 Pa"
+      },
+      {
+        "id": "D",
+        "text": "100 Pa"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "P = F / A = 100 N / 2 m\u00b2 = 50 Pa.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "Why are dams built with thicker walls at the bottom than at the top?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To withstand higher water pressure at greater depths"
+      },
+      {
+        "id": "B",
+        "text": "To reduce construction cost"
+      },
+      {
+        "id": "C",
+        "text": "To make the dam look pleasing"
+      },
+      {
+        "id": "D",
+        "text": "To support vehicles on top"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Hydrostatic pressure increases with depth; the base must resist maximum water pressure.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "Which instrument is used to measure atmospheric pressure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thermometer"
+      },
+      {
+        "id": "B",
+        "text": "Barometer"
+      },
+      {
+        "id": "C",
+        "text": "Manometer"
+      },
+      {
+        "id": "D",
+        "text": "Anemometer"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "A barometer measures atmospheric pressure exerted by the weight of air.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-force-press",
+    "question_text": "If the atmospheric pressure is 100,000 Pa, why are our bodies not crushed by this enormous force?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Our bones are unbreakable"
+      },
+      {
+        "id": "B",
+        "text": "Internal blood and fluid pressure balances external atmospheric pressure"
+      },
+      {
+        "id": "C",
+        "text": "Air is too light to press"
+      },
+      {
+        "id": "D",
+        "text": "Gravity pulls air away from us"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The internal hydrostatic pressure of body fluids equals external atmospheric pressure.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "According to the first law of reflection:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Angle of incidence is greater than angle of reflection"
+      },
+      {
+        "id": "B",
+        "text": "Angle of incidence equals angle of reflection (i = r)"
+      },
+      {
+        "id": "C",
+        "text": "Angle of incidence is half of angle of reflection"
+      },
+      {
+        "id": "D",
+        "text": "Angle of reflection is always 90\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The angle of incidence is always equal to the angle of reflection.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "If a ray of light strikes a plane mirror at an angle of incidence of 35\u00b0, the angle of reflection is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "35\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "55\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "70\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "90\u00b0"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Since angle i = angle r, angle of reflection is 35\u00b0.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "What type of image is formed by a plane mirror?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Real and inverted"
+      },
+      {
+        "id": "B",
+        "text": "Virtual and laterally inverted"
+      },
+      {
+        "id": "C",
+        "text": "Real and magnified"
+      },
+      {
+        "id": "D",
+        "text": "Virtual and upside-down"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Images formed by plane mirrors are virtual, erect, equal in size, and laterally inverted.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "When parallel rays strike an irregular, rough surface and reflect in multiple directions, this is known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Regular reflection"
+      },
+      {
+        "id": "B",
+        "text": "Diffused (irregular) reflection"
+      },
+      {
+        "id": "C",
+        "text": "Total internal reflection"
+      },
+      {
+        "id": "D",
+        "text": "Refraction"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Rough surfaces scatter reflected rays in multiple directions, causing diffused reflection.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "An object is placed 0.5 m in front of a flat plane mirror. What is the distance between the object and its image?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.5 m"
+      },
+      {
+        "id": "B",
+        "text": "1.0 m"
+      },
+      {
+        "id": "C",
+        "text": "1.5 m"
+      },
+      {
+        "id": "D",
+        "text": "0.25 m"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Image is 0.5 m behind the mirror. Distance between object and image = 0.5 + 0.5 = 1.0 m.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "A ray of light strikes a mirror perpendicular to its surface (along the normal). The angle of incidence is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "90\u00b0"
+      },
+      {
+        "id": "B",
+        "text": "0\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "45\u00b0"
+      },
+      {
+        "id": "D",
+        "text": "180\u00b0"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Angle of incidence is measured from the normal; when striking along the normal, i = 0\u00b0.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "How many images are formed when two plane mirrors are placed parallel to each other facing one another?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "Infinite"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "Parallel mirrors (theta = 0) yield n = 360/0 - 1 = infinite reflections.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-refl",
+    "question_text": "What device uses multiple inclined plane mirrors to create beautiful symmetrical geometric patterns?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Periscope"
+      },
+      {
+        "id": "B",
+        "text": "Kaleidoscope"
+      },
+      {
+        "id": "C",
+        "text": "Telescope"
+      },
+      {
+        "id": "D",
+        "text": "Microscope"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "A kaleidoscope uses 3 mirrors inclined at 60\u00b0 to create repeated symmetrical patterns.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "Which sensitive layer at the back of the eye acts like the film or sensor on which images are formed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cornea"
+      },
+      {
+        "id": "B",
+        "text": "Iris"
+      },
+      {
+        "id": "C",
+        "text": "Retina"
+      },
+      {
+        "id": "D",
+        "text": "Pupil"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "The retina contains photoreceptor cells (rods and cones) where focused light forms an inverted image.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "The colored part of the human eye that regulates the amount of light entering the pupil is the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cornea"
+      },
+      {
+        "id": "B",
+        "text": "Iris"
+      },
+      {
+        "id": "C",
+        "text": "Sclera"
+      },
+      {
+        "id": "D",
+        "text": "Ciliary muscle"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The iris contracts and dilates to control pupil diameter based on ambient brightness.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "Which photoreceptors on the retina are sensitive to dim light but do not detect color?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cones"
+      },
+      {
+        "id": "B",
+        "text": "Rods"
+      },
+      {
+        "id": "C",
+        "text": "Optic nerve"
+      },
+      {
+        "id": "D",
+        "text": "Blind spot"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Rods are highly sensitive to low light intensity, whereas cones perceive color in bright light.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "The region on the retina where the optic nerve leaves the eyeball, possessing no photoreceptor cells, is the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fovea"
+      },
+      {
+        "id": "B",
+        "text": "Yellow spot"
+      },
+      {
+        "id": "C",
+        "text": "Blind spot"
+      },
+      {
+        "id": "D",
+        "text": "Pupil"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "The blind spot has no rods or cones, making vision impossible at this exact locus.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "What is the comfortable minimum reading distance for a normal healthy human eye?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 cm"
+      },
+      {
+        "id": "B",
+        "text": "25 cm"
+      },
+      {
+        "id": "C",
+        "text": "50 cm"
+      },
+      {
+        "id": "D",
+        "text": "100 cm"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The least distance of distinct vision (near point) for a normal adult eye is approximately 25 cm.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "Which visual defect is characterized by an eye lens becoming cloudy and opaque in older age?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Myopia"
+      },
+      {
+        "id": "B",
+        "text": "Hypermetropia"
+      },
+      {
+        "id": "C",
+        "text": "Cataract"
+      },
+      {
+        "id": "D",
+        "text": "Astigmatism"
+      }
+    ],
+    "correct_option": "C",
+    "explanation": "A cataract causes the crystalline lens to turn milky/opaque, leading to progressive vision loss.",
+    "difficulty": 2,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "What tactile reading and writing system is utilized globally by visually impaired persons?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Morse code"
+      },
+      {
+        "id": "B",
+        "text": "Braille system"
+      },
+      {
+        "id": "C",
+        "text": "Binary code"
+      },
+      {
+        "id": "D",
+        "text": "Hieroglyphics"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "The Braille system, created by Louis Braille, uses 63 raised dot patterns.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "Which vitamin is essential for maintaining healthy eyesight and preventing night blindness?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vitamin A"
+      },
+      {
+        "id": "B",
+        "text": "Vitamin B12"
+      },
+      {
+        "id": "C",
+        "text": "Vitamin C"
+      },
+      {
+        "id": "D",
+        "text": "Vitamin D"
+      }
+    ],
+    "correct_option": "A",
+    "explanation": "Vitamin A is required for the production of rhodopsin in retinal rod cells.",
+    "difficulty": 1,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  },
+  {
+    "concept_id": "c-light-eye",
+    "question_text": "How long does an image impression persist on the human retina after the light is removed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2 second"
+      },
+      {
+        "id": "B",
+        "text": "1/16th of a second"
+      },
+      {
+        "id": "C",
+        "text": "1/60th of a second"
+      },
+      {
+        "id": "D",
+        "text": "1 full second"
+      }
+    ],
+    "correct_option": "B",
+    "explanation": "Persistence of vision lasts about 1/16 of a second, which makes motion pictures appear continuous.",
+    "difficulty": 3,
+    "source_reference": "AdaptiveLearn Verified Sample Bank"
+  }
+]
