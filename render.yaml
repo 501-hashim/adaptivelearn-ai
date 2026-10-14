@@ -2,7 +2,7 @@ services:
   - type: web
     name: adaptivelearn-backend
     env: python
-    buildCommand: "cd backend && pip install -r requirements.txt && alembic upgrade head && python app/db/seed.py"
+    buildCommand: "bash build.sh"
     startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
     envVars:
       - key: APP_ENV
