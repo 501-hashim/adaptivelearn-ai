@@ -14,8 +14,29 @@ logger = logging.getLogger("uvicorn.info")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Ensure tables are created for local development
+    # Ensure tables are created
     Base.metadata.create_all(bind=engine)
+
+    # Auto-seed initial curriculum and question bank if database is empty
+    try:
+        from app.db.session import SessionLocal
+        from app.models.models import Subject
+        from app.db.seed import seed_data
+
+        db = SessionLocal()
+        try:
+            subject_count = db.query(Subject).count()
+            if subject_count == 0:
+                logger.info("Database is empty. Automatically seeding curriculum, questions, and demo student...")
+                seed_data()
+                logger.info("Auto-seeding complete.")
+            else:
+                logger.info(f"Database already populated with {subject_count} subjects.")
+        finally:
+            db.close()
+    except Exception as e:
+        logger.error(f"Error during auto-seed check: {e}")
+
     logger.info("AdaptiveLearn AI backend started and database verified.")
     yield
 

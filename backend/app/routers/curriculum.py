@@ -23,6 +23,10 @@ def get_subjects(
         Subject.is_active == True
     ).all()
 
+    # Fallback to all active curriculum subjects if no grade-specific subjects exist
+    if not subjects:
+        subjects = db.query(Subject).filter(Subject.is_active == True).all()
+
     results = []
     for s in subjects:
         # Calculate chapters count

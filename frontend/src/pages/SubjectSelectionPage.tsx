@@ -49,63 +49,81 @@ export const SubjectSelectionPage: React.FC = () => {
         <p className="text-slate-600 text-sm mt-1">Select a subject to view chapters, concepts, and start targeted quizzes.</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {subjects.map((sub) => (
-          <div
-            key={sub.id}
-            className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-md transition-shadow flex flex-col justify-between"
+      {subjects.length === 0 ? (
+        <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto shadow-sm">
+          <div className="w-16 h-16 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mx-auto mb-4">
+            <BookOpen size={32} />
+          </div>
+          <h2 className="text-xl font-bold text-slate-900 mb-2">No Subjects Available Yet</h2>
+          <p className="text-slate-600 text-sm mb-6">
+            The curriculum data is being initialized on the server. Please click below to refresh and load your subjects.
+          </p>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-6 py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-semibold shadow-sm transition-colors"
           >
-            <div>
-              <div className="flex justify-between items-start mb-4">
-                <div className="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center">
-                  <BookOpen size={24} />
-                </div>
-                <span className="text-xs font-semibold px-2.5 py-1 bg-slate-100 text-slate-700 rounded-full">
-                  Grade {sub.grade}
-                </span>
-              </div>
-
-              <h2 className="text-xl font-bold text-slate-900 mb-2">{sub.name}</h2>
-              <p className="text-slate-600 text-sm mb-6 leading-relaxed">{sub.description}</p>
-
-              <div className="grid grid-cols-2 gap-4 py-4 border-t border-slate-100 text-xs">
-                <div>
-                  <span className="text-slate-600">Chapters:</span>{' '}
-                  <span className="font-semibold text-slate-800">{sub.chapters_count} Chapters</span>
-                </div>
-                <div>
-                  <span className="text-slate-600">Mastery:</span>{' '}
-                  <span className="font-semibold text-slate-800">
-                    {sub.mastery_percentage !== null ? `${sub.mastery_percentage}%` : 'Not assessed'}
+            Refresh Subjects
+          </button>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {subjects.map((sub) => (
+            <div
+              key={sub.id}
+              className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-md transition-shadow flex flex-col justify-between"
+            >
+              <div>
+                <div className="flex justify-between items-start mb-4">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center">
+                    <BookOpen size={24} />
+                  </div>
+                  <span className="text-xs font-semibold px-2.5 py-1 bg-slate-100 text-slate-700 rounded-full">
+                    Grade {sub.grade}
                   </span>
                 </div>
-                {sub.weak_concepts_count > 0 && (
-                  <div className="col-span-2 text-amber-600 flex items-center space-x-1 font-medium">
-                    <AlertCircle size={14} />
-                    <span>{sub.weak_concepts_count} concept(s) need practice</span>
+
+                <h2 className="text-xl font-bold text-slate-900 mb-2">{sub.name}</h2>
+                <p className="text-slate-600 text-sm mb-6 leading-relaxed">{sub.description}</p>
+
+                <div className="grid grid-cols-2 gap-4 py-4 border-t border-slate-100 text-xs">
+                  <div>
+                    <span className="text-slate-600">Chapters:</span>{' '}
+                    <span className="font-semibold text-slate-800">{sub.chapters_count} Chapters</span>
                   </div>
-                )}
+                  <div>
+                    <span className="text-slate-600">Mastery:</span>{' '}
+                    <span className="font-semibold text-slate-800">
+                      {sub.mastery_percentage !== null ? `${sub.mastery_percentage}%` : 'Not assessed'}
+                    </span>
+                  </div>
+                  {sub.weak_concepts_count > 0 && (
+                    <div className="col-span-2 text-amber-600 flex items-center space-x-1 font-medium">
+                      <AlertCircle size={14} />
+                      <span>{sub.weak_concepts_count} concept(s) need practice</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                <Link
+                  to={`/quiz-config?subject_id=${sub.id}&mode=diagnostic`}
+                  className="text-xs text-brand-600 hover:text-brand-700 font-semibold"
+                >
+                  Diagnostic Quiz
+                </Link>
+                <Link
+                  to={`/subjects/${sub.id}/chapters`}
+                  className="px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition-colors"
+                >
+                  <span>Explore Chapters</span>
+                  <ArrowRight size={14} />
+                </Link>
               </div>
             </div>
-
-            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-              <Link
-                to={`/quiz-config?subject_id=${sub.id}&mode=diagnostic`}
-                className="text-xs text-brand-600 hover:text-brand-700 font-semibold"
-              >
-                Diagnostic Quiz
-              </Link>
-              <Link
-                to={`/subjects/${sub.id}/chapters`}
-                className="px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition-colors"
-              >
-                <span>Explore Chapters</span>
-                <ArrowRight size={14} />
-              </Link>
-            </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
