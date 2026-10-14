@@ -3,7 +3,7 @@ services:
     name: adaptivelearn-backend
     env: python
     buildCommand: "bash build.sh"
-    startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    startCommand: "bash start.sh"
     envVars:
       - key: APP_ENV
         value: production
@@ -22,6 +22,20 @@ services:
       - key: GEMINI_MODEL
         value: gemini-1.5-flash
       - key: GEMINI_API_KEY
+        sync: false
+
+  - type: web
+    name: adaptivelearn-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_BASE_URL
         sync: false
 
 databases:
