@@ -7,6 +7,18 @@ database_url = settings.DATABASE_URL
 if database_url.startswith("postgres://"):
     database_url = database_url.replace("postgres://", "postgresql://", 1)
 
+# Ensure proper dialect driver is matched for SQLAlchemy 2.x
+if database_url.startswith("postgresql://"):
+    try:
+        import psycopg
+        database_url = database_url.replace("postgresql://", "postgresql+psycopg://", 1)
+    except ImportError:
+        try:
+            import psycopg2
+            database_url = database_url.replace("postgresql://", "postgresql+psycopg2://", 1)
+        except ImportError:
+            pass
+
 connect_args = {}
 engine_kwargs = {
     "pool_pre_ping": True,
