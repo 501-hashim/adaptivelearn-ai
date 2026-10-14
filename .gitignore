@@ -10,7 +10,7 @@ ENV/
 backend/env/
 build/
 develop-eggs/
-dist/
+# dist/ (tracked for Render static publish directory)
 downloads/
 eggs/
 .eggs/

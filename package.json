@@ -2,6 +2,6 @@
   "name": "adaptivelearn-ai-monorepo",
   "private": true,
   "scripts": {
-    "build": "npm --prefix frontend run build"
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && node copy-dist.js"
   }
 }
