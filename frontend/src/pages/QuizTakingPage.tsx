@@ -25,36 +25,39 @@ export const QuizTakingPage: React.FC = () => {
   const [showConfirmModal, setShowConfirmModal] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    const fetchQuiz = async () => {
-      if (!quizId) return;
-      try {
-        const data = await api.getQuiz(quizId);
-        if (data.status === 'completed') {
-          navigate(`/quiz/${quizId}/results`);
-          return;
-        }
-        setQuiz(data);
-
-        // Pre-fill existing saved answers
-        const initialAnswers: Record<string, string> = {};
-        const initialFlagged: Record<string, boolean> = {};
-        data.questions.forEach((q: any) => {
-          if (q.current_selected_option) {
-            initialAnswers[q.id] = q.current_selected_option;
-          }
-          if (q.marked_for_review) {
-            initialFlagged[q.id] = true;
-          }
-        });
-        setAnswers(initialAnswers);
-        setFlagged(initialFlagged);
-      } catch (err: any) {
-        setError(err.message || 'Failed to load quiz session.');
-      } finally {
-        setLoading(false);
+  const fetchQuiz = async () => {
+    if (!quizId) return;
+    setLoading(true);
+    setError(null);
+    try {
+      const data = await api.getQuiz(quizId);
+      if (data.status === 'completed') {
+        navigate(`/quiz/${quizId}/results`);
+        return;
       }
-    };
+      setQuiz(data);
+
+      // Pre-fill existing saved answers
+      const initialAnswers: Record<string, string> = {};
+      const initialFlagged: Record<string, boolean> = {};
+      data.questions.forEach((q: any) => {
+        if (q.current_selected_option) {
+          initialAnswers[q.id] = q.current_selected_option;
+        }
+        if (q.marked_for_review) {
+          initialFlagged[q.id] = true;
+        }
+      });
+      setAnswers(initialAnswers);
+      setFlagged(initialFlagged);
+    } catch (err: any) {
+      setError(err.message || 'Failed to load quiz session.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
     fetchQuiz();
   }, [quizId]);
 
@@ -135,9 +138,27 @@ export const QuizTakingPage: React.FC = () => {
 
   if (error || !quiz) {
     return (
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <div className="p-4 bg-red-50 border border-red-200 text-red-700 rounded-xl text-sm">
-          {error || 'Quiz not found.'}
+      <div className="max-w-xl mx-auto px-4 py-16 text-center">
+        <div className="p-6 bg-red-50 border border-red-200 rounded-2xl shadow-sm">
+          <div className="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <AlertCircle size={24} />
+          </div>
+          <h2 className="text-lg font-bold text-red-900 mb-2">Quiz Loading Issue</h2>
+          <p className="text-sm text-red-700 mb-6 leading-relaxed">{error || 'Quiz not found.'}</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <button
+              onClick={fetchQuiz}
+              className="px-5 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-xl text-xs font-semibold shadow-sm transition-colors"
+            >
+              Retry Loading Quiz
+            </button>
+            <button
+              onClick={() => navigate('/subjects')}
+              className="px-5 py-2.5 bg-white border border-red-200 text-red-700 hover:bg-red-50 rounded-xl text-xs font-medium transition-colors"
+            >
+              Back to Subjects
+            </button>
+          </div>
         </div>
       </div>
     );

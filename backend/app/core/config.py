@@ -28,8 +28,9 @@ class Settings(BaseSettings):
         "http://127.0.0.1:5174",
         "http://localhost:4173",
         "http://127.0.0.1:4173",
+        "https://adaptivelearn-frontend.onrender.com",
     ]
-    CORS_ORIGIN_REGEX: str = r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$|^https://.*\.vercel\.app$"
+    CORS_ORIGIN_REGEX: str = r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$|^https://.*\.vercel\.app$|^https://.*\.onrender\.com$"
 
     @field_validator("CORS_ALLOWED_ORIGINS", mode="before")
     @classmethod

@@ -12,8 +12,15 @@ Idempotent: Safe to re-run multiple times without duplicate records.
 """
 
 import os
+import sys
 import json
 import logging
+
+# Ensure backend root is in sys.path regardless of execution working directory
+backend_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+
 from app.db.session import SessionLocal, Base, engine
 from app.models.models import (
     Subject,

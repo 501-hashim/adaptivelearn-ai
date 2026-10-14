@@ -20,18 +20,20 @@ export const QuizConfigPage: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    const fetchSubjects = async () => {
-      try {
-        const data = await api.getSubjects();
-        setSubjects(data);
-        if (!selectedSubject && data.length > 0) {
-          setSelectedSubject(data[0].id);
-        }
-      } catch (err: any) {
-        setError(err.message || 'Failed to load subjects.');
+  const fetchSubjects = async () => {
+    try {
+      setError(null);
+      const data = await api.getSubjects();
+      setSubjects(data);
+      if (!selectedSubject && data.length > 0) {
+        setSelectedSubject(data[0].id);
       }
-    };
+    } catch (err: any) {
+      setError(err.message || 'Failed to load subjects.');
+    }
+  };
+
+  useEffect(() => {
     fetchSubjects();
   }, []);
 
@@ -90,8 +92,15 @@ export const QuizConfigPage: React.FC = () => {
         </div>
 
         {error && (
-          <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">
-            {error}
+          <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm flex items-center justify-between">
+            <span>{error}</span>
+            <button
+              type="button"
+              onClick={fetchSubjects}
+              className="ml-3 px-3 py-1 bg-red-600 hover:bg-red-700 text-white text-xs font-semibold rounded-lg shrink-0 transition-colors"
+            >
+              Retry
+            </button>
           </div>
         )}
 

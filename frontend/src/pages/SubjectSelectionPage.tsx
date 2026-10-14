@@ -9,34 +9,62 @@ export const SubjectSelectionPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const fetchSubjects = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const data = await api.getSubjects();
+      setSubjects(data);
+    } catch (err: any) {
+      setError(err.message || 'Failed to load subjects.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   useEffect(() => {
-    const fetchSubjects = async () => {
-      try {
-        const data = await api.getSubjects();
-        setSubjects(data);
-      } catch (err: any) {
-        setError(err.message || 'Failed to load subjects.');
-      } finally {
-        setLoading(false);
-      }
-    };
     fetchSubjects();
   }, []);
 
   if (loading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 py-12 text-center text-slate-600">
-        <div className="w-8 h-8 border-4 border-brand-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-        <p>Loading subjects...</p>
+      <div className="max-w-7xl mx-auto px-4 py-16 text-center text-slate-600">
+        <div className="w-10 h-10 border-4 border-brand-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+        <p className="font-medium text-slate-700">Loading your enrolled subjects...</p>
+        <p className="text-xs text-slate-400 mt-2">Connecting to AdaptiveLearn backend...</p>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="p-4 bg-red-50 border border-red-200 text-red-700 rounded-xl text-sm">
-          {error}
+      <div className="max-w-xl mx-auto px-4 py-16">
+        <div className="p-6 bg-red-50 border border-red-200 rounded-2xl shadow-sm text-center">
+          <div className="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <AlertCircle size={24} />
+          </div>
+          <h2 className="text-lg font-bold text-red-900 mb-2">Unable to Load Subjects</h2>
+          <p className="text-sm text-red-700 mb-6 leading-relaxed">{error}</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <button
+              onClick={fetchSubjects}
+              className="px-5 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-xl text-xs font-semibold shadow-sm transition-colors"
+            >
+              Retry Loading Subjects
+            </button>
+            <button
+              onClick={() => {
+                const newUrl = prompt('Enter backend API URL (e.g. https://adaptivelearn-backend.onrender.com):');
+                if (newUrl) {
+                  localStorage.setItem('adaptivelearn_api_base_url', newUrl.trim());
+                  fetchSubjects();
+                }
+              }}
+              className="px-5 py-2.5 bg-white border border-red-200 text-red-700 hover:bg-red-50 rounded-xl text-xs font-medium transition-colors"
+            >
+              Configure API URL
+            </button>
+          </div>
         </div>
       </div>
     );
@@ -59,7 +87,7 @@ export const SubjectSelectionPage: React.FC = () => {
             The curriculum data is being initialized on the server. Please click below to refresh and load your subjects.
           </p>
           <button
-            onClick={() => window.location.reload()}
+            onClick={fetchSubjects}
             className="px-6 py-2.5 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-semibold shadow-sm transition-colors"
           >
             Refresh Subjects
